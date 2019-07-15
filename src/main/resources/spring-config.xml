@@ -17,6 +17,7 @@
 
     <tx:annotation-driven/>
 
+    <!-- Generate DAO methods under base-package -->
     <jpa:repositories base-package="com.acme.banking.dbo.spring.dao"/>
 
     <!-- TODO Spring Boot for Spring auto-configurated context with modules -->
